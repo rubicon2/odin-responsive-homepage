@@ -64,8 +64,13 @@ p {
   letter-spacing: -0.09em;
 }
 
-.header-main-text {
+.header-main-text-container {
   padding: 0 var(--mobile-padding);
+}
+
+.header-main-text {
+  margin: 0 auto;
+  max-width: 700px;
 }
 
 .centered-text {
