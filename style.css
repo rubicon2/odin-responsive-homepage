@@ -1,6 +1,7 @@
 :root {
   box-sizing: border-box;
   --background-color: rgb(23, 90, 190);
+  --mobile-padding: 1em;
 }
 
 *,
@@ -52,4 +53,27 @@ h6 {
   font-size: 25vw;
   line-height: 0.7em;
   letter-spacing: -0.1em;
+}
+
+.header-main-text {
+  padding: 0 var(--mobile-padding);
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.centered-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 6vw;
+}
+
+.header-social-icon {
+  width: min(10vw, 2rem);
 }
