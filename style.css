@@ -1,5 +1,6 @@
 :root {
   box-sizing: border-box;
+  --background-color: rgb(23, 90, 190);
 }
 
 *,
@@ -29,10 +30,14 @@ h6 {
   font-family: 'Concert One', sans-serif;
 }
 
+.header-picture-background {
+  padding: 1rem 10vw;
+  background: linear-gradient(150deg, var(--background-color), var(--background-color) 65%, white 65%, white);
+}
+
 .header-picture-section {
   /* Create a new stacking context */
   position: relative;
-  padding: 1rem 10vw;
 }
 
 .header-picture-text-overlay {
