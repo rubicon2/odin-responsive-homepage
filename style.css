@@ -1,6 +1,7 @@
 :root {
   box-sizing: border-box;
   --background-color: rgb(23, 90, 190);
+  --shadow-color: rgba(0, 0, 0, 0.096);
   --mobile-padding: 1em;
 }
 
@@ -50,7 +51,7 @@ p {
 .header-picture-section {
   /* Create a new stacking context */
   position: relative;
-  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.096);
+  box-shadow: 5px 5px 5px 5px var(--shadow-color);
 }
 
 .header-picture-text-overlay {
