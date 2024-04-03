@@ -146,3 +146,12 @@ p {
 .project-social-icon {
   width: 1.5em;
 }
+
+.contact-section {
+  color: white;
+  background-color: var(--background-color);
+}
+
+.address-section {
+  margin-bottom: 2em;
+}
