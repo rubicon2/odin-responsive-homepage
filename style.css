@@ -75,7 +75,7 @@ p {
 }
 
 .section-container {
-  width: 60em;
+  width: 70em;
   max-width: 100%;
   padding: 1em var(--mobile-padding);
   margin: 0 auto;
@@ -109,7 +109,7 @@ p {
 
 .project {
   display: grid;
-  grid-template-rows: 250px 1fr;
+  grid-template-rows: 15rem 1fr;
 
   box-shadow: 5px 5px 5px 5px var(--shadow-color);
 }
