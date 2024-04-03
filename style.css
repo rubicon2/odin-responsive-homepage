@@ -166,8 +166,17 @@ p {
   background-color: var(--background-color);
 }
 
+.contact-heading {
+  text-align: center;
+}
+
 .address-section {
   margin-bottom: 2em;
+}
+
+.footer-social-links {
+  display: flex;
+  justify-content: center;
 }
 
 .purple-background {
@@ -237,5 +246,21 @@ p {
 
   .projects {
     gap: min(5vw, 2rem);
+  }
+
+  .contact-section {
+    display: flex;
+  }
+
+  .contact-heading {
+    text-align: left;
+  }
+
+  .footer-social-links {
+    justify-content: start;
+  }
+
+  .footer-picture {
+    margin: 4vw;
   }
 }
