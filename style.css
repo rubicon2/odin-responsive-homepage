@@ -69,8 +69,12 @@ p {
   letter-spacing: -0.09em;
 }
 
-.header-main-text-container {
-  padding: 0 var(--mobile-padding);
+.section-container {
+  width: 60em;
+  max-width: 100%;
+  padding: 1em var(--mobile-padding);
+  margin: 0 auto;
+  padding-bottom: 5rem;
 }
 
 .header-main-text {
