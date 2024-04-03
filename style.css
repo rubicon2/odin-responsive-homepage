@@ -15,6 +15,7 @@
 
 img {
   width: 100%;
+  object-fit: cover;
 }
 
 body {
@@ -123,6 +124,13 @@ p {
 }
 
 .project-img {
+  display: grid;
+  place-items: center;
+
+  color: white;
+}
+
+.project-img > img {
   height: 100%;
   object-fit: cover;
 }
@@ -153,4 +161,24 @@ p {
 
 .address-section {
   margin-bottom: 2em;
+}
+
+.purple-background {
+  background-color: #ad7dc9;
+}
+
+.orange-background {
+  background-color: #ce9e5e;
+}
+
+.green-background {
+  background-color: #6db364;
+}
+
+.pink-background {
+  background-color: #ce6da5;
+}
+
+.blue-background {
+  background-color: #648dca;
 }
