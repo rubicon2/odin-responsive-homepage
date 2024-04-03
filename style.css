@@ -100,3 +100,49 @@ p {
 .header-social-icon {
   width: min(10vw, 2rem);
 }
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: min(5vw, 2rem);
+}
+
+.project {
+  display: grid;
+  grid-template-rows: 250px 1fr;
+
+  box-shadow: 5px 5px 5px 5px var(--shadow-color);
+}
+
+.project-text {
+  padding: 1em;
+  min-height: 200px;
+}
+
+.project p:last-child {
+  margin: 0;
+}
+
+.project-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.project-header h3 {
+  margin: 0;
+}
+
+.project-links {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.project-social-icon {
+  width: 1.5em;
+}
