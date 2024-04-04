@@ -261,6 +261,11 @@ p {
     gap: min(5vw, 2rem);
   }
 
+  .projects-section-heading {
+    text-align: left;
+    margin-bottom: 0.1em;
+  }
+
   .contact-section {
     display: flex;
   }
@@ -270,7 +275,7 @@ p {
   }
 
   .footer-social-links {
-    justify-content: start;
+    justify-content: flex-start;
   }
 
   .footer-picture {
