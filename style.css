@@ -161,9 +161,17 @@ p {
   width: 1.5em;
 }
 
-.contact-section {
-  color: white;
+.contact-background {
   background-color: var(--background-color);
+  color: white;
+}
+
+.contact-section {
+  padding: 0;
+}
+
+.contact-details {
+  padding: 1em var(--mobile-padding);
 }
 
 .contact-heading {
@@ -177,6 +185,10 @@ p {
 .footer-social-links {
   display: flex;
   justify-content: center;
+}
+
+.footer-picture {
+  width: 100%;
 }
 
 .purple-background {
@@ -199,7 +211,7 @@ p {
   background-color: #648dca;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 650px) {
   .page-header {
     position: relative;
   }
