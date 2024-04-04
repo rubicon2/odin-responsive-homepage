@@ -93,15 +93,21 @@ p {
   text-align: center;
 }
 
-.centered-flex {
+.flex-align-end {
+  align-items: flex-end;
+}
+
+.flex {
   display: flex;
-  justify-content: center;
 }
 
 .social-links {
   list-style: none;
-  display: flex;
   gap: 1rem;
+}
+
+.header-social-links {
+  justify-content: center;
 }
 
 .header-social-icon {
@@ -143,7 +149,6 @@ p {
 }
 
 .project-header {
-  display: flex;
   justify-content: space-between;
   margin-bottom: 1em;
 }
@@ -153,7 +158,7 @@ p {
 }
 
 .project-links {
-  display: flex;
+  align-items: center;
   gap: 0.5rem;
 }
 
@@ -168,6 +173,7 @@ p {
 
 .contact-section {
   padding: 0;
+  flex-direction: column;
 }
 
 .contact-details {
@@ -183,7 +189,6 @@ p {
 }
 
 .footer-social-links {
-  display: flex;
   justify-content: center;
 }
 
@@ -212,10 +217,6 @@ p {
 }
 
 @media (min-width: 650px) {
-  .page-header {
-    position: relative;
-  }
-
   .header-background {
     padding: 7.5vw;
     background: linear-gradient(160deg, var(--background-color), var(--background-color) 55%, white 55%, white);
