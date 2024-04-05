@@ -294,7 +294,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(170deg, var(--background-color), var(--background-color) 65%, white 65%, white);
+    background: linear-gradient(170deg, var(--background-color), var(--background-color) 60%, white 60%, white);
   }
 
   .section-container,
