@@ -230,8 +230,7 @@ p {
 
   .header-picture {
     float: left;
-    margin-top: -1em;
-    margin-left: -1em;
+    margin-bottom: 1.5em;
     margin-right: 1.5em;
     box-shadow: 5px 5px 5px 5px var(--shadow-color);
   }
