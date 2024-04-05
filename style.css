@@ -21,6 +21,12 @@ img {
   object-fit: cover;
 }
 
+picture > img {
+  /* To get rid of the annoying empty space at the bottom of images */
+  /* https://dev.to/christiankaindl/the-strange-img-gap-in-html */
+  vertical-align: top;
+}
+
 body {
   font-family: 'IBM Plex Sans', sans-serif;
 }
